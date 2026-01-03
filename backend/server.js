@@ -17,7 +17,7 @@ const app = express();
 /* ================= MIDDLEWARE ================= */
 app.use(
   cors({
-    origin: "*", // allow Netlify frontend
+    origin: "https://dreamy-lily-db8162.netlify.app", // allow Netlify frontend
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"]
   })
